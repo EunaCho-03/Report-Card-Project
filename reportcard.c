@@ -3,6 +3,11 @@
 #include <stdlib.h>
 #include <string.h>
 
+/*
+You can type the students' names and grades for each subject
+This code enables the user to find the average score and list the students in order of the grade
+*/
+
 typedef struct STUDENT {
     char name[10];
     int english;
